@@ -35,13 +35,41 @@ html,body{
     z-index: 11;
 }
 #Box1{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background-color: crimson;
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%); /* For this You Can Search Clip Path in Google than Go to the website name https://bennettfeely.com/clippy/ */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     /* transform: translateX(100%); */
     /* transform: translateY(-50%); */
+}
+.box{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    /* align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+}
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    border: 5px solid white;
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: salmon;
+    border: 5px solid white;
+}
+.box3{
+    height: 200px;
+    width: 200px;
+    background-color: tan;
+    border: 5px solid white;
 }
