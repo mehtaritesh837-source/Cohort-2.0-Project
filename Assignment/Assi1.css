@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    background-color: rgb(4, 4, 72);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: large;
+}
+#P{
+    margin: 10px;
+}
+.about{
+    background-color: hsl(0, 0%, 80%);
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 40px;
+    border-radius: 5px;
+}
+.hello{
+    padding: 20px;
+}
+.edu{
+    background-color: lightcyan;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#B{
+    background-color: white;
+    margin-top: 15px;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding: 15px;
+    font-size: large;
+}
+#H{
+    background-color: white;
+    margin-top: 15px;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding: 15px;
+    font-size: large;
+}
+
+.skills{
+    background-color: palegoldenrod;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#front{
+    background-color: white;
+    margin-top: 20px;
+    margin-right: 250px;
+    margin-left: 250px;
+    padding: 15px;
+    font-size: large;
+}
+#java{
+    background-color: white;
+    margin-top: 5px;
+    margin-right: 250px;
+    margin-left: 250px;
+    padding: 15px;
+    font-size: large;
+}
+#js{
+    background-color: white;
+    margin-top: 5px;
+    margin-right: 250px;
+    margin-left: 250px;
+    padding: 15px;
+    font-size: large;
+}
+#ui{
+    background-color: white;
+    margin-top: 5px;
+    margin-right: 250px;
+    margin-left: 250px;
+    padding: 15px;
+    font-size: large;
+}
+.projects{
+    background-color: hsl(270, 100%, 85%);
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#pro{
+    background-color: white;
+    margin-top: 20px;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding: 15px;
+    font-size: large;
+}
+#land{
+    background-color: white;
+    margin-top: 5px;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding: 15px;
+    font-size: large;
+}
+#blog{
+    background-color: white;
+    margin-top: 5px;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding: 15px;
+    font-size: large;
+}
+.contact{
+    background-color: lightgreen;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#email{
+    background-color: white;
+    margin-top: 5px;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 15px;
+    font-size: large;
+}
+#insta{
+    background-color: white;
+    margin-top: 5px;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 15px;
+    font-size: large;
+}
+#phone{
+    background-color: white;
+    margin-top: 5px;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 15px;
+    font-size: large;
+}
+footer{
+    background-color: rgb(4, 4, 72);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: main;
+    src: url(../montserrat/Montserrat-Black.ttf);
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    font-family: main;
+}
+#nav{
+    padding: 10px 0;
+    letter-spacing: 0.5px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+#left{
+    margin-left: 3%;
+}
+#right{
+    margin-right: 1%;
+}
+#torque{
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+#nav a{
+    color: #111;
+    font-size: 25px;
+    margin-right: 25px;
+    text-decoration: none;
+}
+#main>h1{
+    font-size: 200px;
+    font-weight: 100;
+    padding-left: 65px;
+    margin-top: 0;
+}
+#btmleft{
+    width: 300px;
+    position: absolute;
+    bottom: 15%;
+    left: 3%;
+}
+#btmleft h3{
+    font-size: 25px;
+}
+#btmleft p{
+    font-size: 13px;
+    margin-top: 5px;
+}
+#btmleft h4{
+    margin-top: 50px;
+    font-size: 25px;
+}
+#bottombar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 25px 45px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#bottombar h1{
+    font-size: 22px;
+}
+#bottombar a{
+    color: #111;
+    text-decoration: none;
+    font-size: 22px;
+}
+#main>img{
+    position: absolute;
+    height: 350px;
+}
+#main #first{
+    height: 300px;
+    top: 30%;
+    left: 58%;
+    z-index: 99;
+}
+#main #second{
+    height: 200px;
+    width: 200px;
+    top: 35%;
+    left: 40%;
+    z-index: 99;
+}
+#main #third{
+    height: 200px;
+    width: 200px;
+    top: 55%;
+    left: 52%;
+    z-index: 99;
+}

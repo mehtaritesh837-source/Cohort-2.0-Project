@@ -1,0 +1,51 @@
+@font-face {
+    font-family: horror;
+    src: url(./another_danger/Another\ Danger\ -\ Demo.otf);
+}
+@font-face {
+    font-family: Love;
+    src: url(./beautiful-people-font/BeautifulPeoplePersonalUse-dE0g.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#hero{
+    color: pink;
+    background-color: black;
+    font-size: 50px;
+    font-family: Love;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#love{
+    color: rgb(247, 106, 129);
+    background-color: black;
+    font-size: 50px;
+    font-family: Love;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.hello{
+    color: royalblue;
+    font-family: horror;
+    font-weight: 900;
+}
+
+div{
+    height: 100%;
+    width: 100%;
+    background-color: royalblue;
+}
