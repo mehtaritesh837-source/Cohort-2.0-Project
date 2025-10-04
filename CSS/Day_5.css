@@ -7,3 +7,41 @@ html,body{
     height: 100%;
     width: 100%;
 }
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+
+}
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color: lightseagreen;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+}
+#box3{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    z-index: 11;
+}
+#Box1{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* transform: translateX(100%); */
+    /* transform: translateY(-50%); */
+}
