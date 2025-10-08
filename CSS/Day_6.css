@@ -42,7 +42,7 @@ body {
     background: linear-gradient(transparent,transparent, rgb(58, 57, 57));
     bottom: -40%;
 
-    transition: all ease 1s;
+    transition: all ease 0.8s;
 }
 .bottom h4{
     color: white;
