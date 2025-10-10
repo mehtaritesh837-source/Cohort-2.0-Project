@@ -9,6 +9,54 @@ html,body{
     width: 100%;
     height: 100%;
 }
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+
+    section{
+        height: 100%;
+        flex-grow: 1;
+        background-size: cover;
+        background-position: center;
+        transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+        cursor: pointer;
+        // background-color: rgb(148, 17, 17);
+        // border: 2px solid black;
+    }
+    section:hover{
+        flex-grow: 2.5;
+    }
+    section:nth-child(1){
+        background-image: url(./ironman.jpg);
+    }
+    section:nth-child(2){
+        background-image: url(./Loki.jpg);
+    }
+    section:nth-child(3){
+        background-image: url(./Thor.jpg);
+    }
+    section:nth-child(4){
+        background-image: url(./DrDoom.jpg);
+    }
+    section:nth-child(5){
+        background-image: url(./DeadPool.jpg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 // @mixin button-style($bg-color){
 //     padding: 20px 30px;
 //     background-color: $bg-color;
@@ -19,12 +67,15 @@ html,body{
 //     cursor: pointer;
 //     font-size: 18px;
 // }
-.blue{
-    @include button-style(blue,white,18px)
-}
-.red{
-    @include button-style(red,white,18px)
-}
+// .blue{
+//     @include button-style(blue,white,18px)
+// }
+// .red{
+//     @include button-style(red,white,18px)
+// }
+
+// Flex Grow - Self Study
+
 // @mixin flexCenter{
 //     display: flex;
 //     justify-content: center;

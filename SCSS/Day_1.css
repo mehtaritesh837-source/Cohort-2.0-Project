@@ -9,24 +9,35 @@ html, body {
   height: 100%;
 }
 
-.blue {
-  padding: 15px 30px;
-  background-color: blue;
-  color: white;
-  border: none;
-  border-radius: 7px;
-  outline: none;
-  cursor: pointer;
-  font-size: 18px;
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 10px;
 }
-
-.red {
-  padding: 15px 30px;
-  background-color: red;
-  color: white;
-  border: none;
-  border-radius: 7px;
-  outline: none;
+main section {
+  height: 100%;
+  flex-grow: 1;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
   cursor: pointer;
-  font-size: 18px;
+}
+main section:hover {
+  flex-grow: 2.5;
+}
+main section:nth-child(1) {
+  background-image: url(./ironman.jpg);
+}
+main section:nth-child(2) {
+  background-image: url(./Loki.jpg);
+}
+main section:nth-child(3) {
+  background-image: url(./Thor.jpg);
+}
+main section:nth-child(4) {
+  background-image: url(./DrDoom.jpg);
+}
+main section:nth-child(5) {
+  background-image: url(./DeadPool.jpg);
 }/*# sourceMappingURL=Day_1.css.map */
