@@ -1,10 +1,10 @@
 @font-face {
     font-family: h1;
-    src: url(./another_danger/Another\ Danger\ -\ Demo.otf);
+    src: url(../another_danger/Another\ Danger\ -\ Demo.otf);
 }
 @font-face {
     font-family: b1;
-    src: url(./beautiful-people-font/BeautifulPeoplePersonalUse-dE0g.ttf);
+    src: url(../beautiful-people-font/BeautifulPeoplePersonalUse-dE0g.ttf);
 }
 *{
     margin: 0;
